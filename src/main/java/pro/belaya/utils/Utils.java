@@ -10,5 +10,6 @@ public class Utils {
         BigDecimal bd = BigDecimal.valueOf(value);
         bd = bd.setScale(places, RoundingMode.HALF_UP);
         return bd.floatValue();
+		
     }
 }
